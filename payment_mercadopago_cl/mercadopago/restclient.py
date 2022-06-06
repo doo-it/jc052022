@@ -11,7 +11,7 @@ class RestClient(object):
     MIME_FORM = "application/x-www-form-urlencoded"
 
     def __init__(self, version):
-        self.USER_AGENT = "MercadoPago Python SDK v" + version
+        self.USER_AGENT = "MercadoPago Chile Python SDK v" + version
         self.PRODUCT_ID = "bc32bpftrpp001u8nhlg"
         self.TRACKING_ID = "platform:" + platform.python_version() + ",type:SDK" + version + ",so;"
 

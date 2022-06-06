@@ -5,7 +5,7 @@
     'category': 'Accounting/Payment Acquirers',
     'sequence': 365,
     'summary': 'Payment Acquirer: MercadoPago Chile Implementation',
-    'version': '15.1.21.34',
+    'version': '15.1.22.1',
     'description': """MercadoPago Chile Payment Acquirer""",
     'author': 'Moldeo Interactive',
     'website': 'https://www.moldeointeractive.com',
