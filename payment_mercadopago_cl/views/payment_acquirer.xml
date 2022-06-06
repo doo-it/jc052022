@@ -38,7 +38,7 @@
             <field name="arch" type="xml">
               <xpath expr="//div[@name='button_box']" position="inside">
                   <button type="object"
-                    attrs="{'invisible':[('mercadopago_txn_provider', '!=', 'mercadopago')] }"
+                    attrs="{'invisible':[('mercadopago_txn_provider', '!=', 'mercadopago_cl')] }"
                     name="action_mercadopago_cl_check_status"
                     class="oe_stat_button">
                     <img src="/payment_mercadopago_cl/static/src/img/mercadopago_logo_64.png" width="32" alt="logo mp"/>
